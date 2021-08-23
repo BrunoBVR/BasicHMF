@@ -1,0 +1,4 @@
+gcc simp_rep.c condini.c force_rep.c -lm -O -o simp_rep.exe
+gcc simp_rep.c condini_beam.c force_rep.c -lm -O -o simp_rep_beam.exe
+gcc simp_atr.c condini_beam.c force_atr.c -lm -O -o simp_atr_beam.exe
+gcc simp_atr.c condini.c force_atr.c -lm -O -o simp_atr.exe

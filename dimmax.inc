@@ -1,0 +1,2 @@
+#define DIMMAX 100000
+
